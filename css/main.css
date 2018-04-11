@@ -1,72 +1,93 @@
-#navbar{height: 2%;}
+html{background: url(../images/mechie.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
-#about{background-image: url(../images/mechie.png);
-    background-size:cover;
-text-align: center;
-background-attachment: fixed;
-height: 650px;
-position: relative;
-top: -40px;
-}
-.main{text-align: center;
-    padding-top: 15%;
-    line-height: 1;
-    font-family: Radley;
-    font-weight: normal;
-    font-size: 64px;
+body{position: relative;
+font-size:18px;
+font-family: roboto;}
+
+nav{position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: #F2F2F2;}
     
+
+#about{
+text-align: center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 700px;
+width: 100%;
+color: #F5D984;
+margin-top:0; 
+position: relative;
+margin-top: 0px;
+}
+.name{position: relative;
+    text-align: center;
+   top: 220px;
+    font-family: Radley;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 64px;
     color: #F5D984;}
 
-.desc{color:#56CCF2;
+.what{position: relative;
+    text-align: center;
+    top: 160px;
     font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
+    line-height: normal;
     font-size: 35px;
     text-align: center;
     color: #56CCF2;}
 
 .time{color: #F2C94C;
-    font-family: Roboto;
+    position: relative;
+    text-align: center;
+    top: 150px;
+    font-family: Ropa Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 105px;
-padding-top: 5px;}
+    line-height: normal;
+    font-size: 36px;
+    text-align: center;}
 
-    .time2{
-        font-family: Ropa Sans;
+h2.echo{
+     position: relative;
+    text-align: center;
+    top: 80px;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
-font-size: 36px;
-text-align: center;
-color: #F2C94C;
-padding-top: 5px;
+font-size: 105px;
 
-    }
-
-ul {position: relative;
-    right: 10px;
-    top: 5px;
-    list-style-type: none;
-    margin-right: 5px;
-    ;
-    overflow: hidden;
-    background-color: #fff;
 }
 
-li {
-    float: right;
-    margin-left: 5px;
-}
+nav{margin-bottom: 2px;
+height: 52px;}
 
-li a {
-    display: block;
-    color: #56CCF2 ;
-    text-align: center;
+nav li {
+    display: inline-block;
     text-decoration: none;
+    color: #56CCF2;
+   
     
 }
+li{margin-left: 17px;}
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
+a{text-decoration: none;
+color:#56CCF2;}
+
+ul{float: right;
+    margin-right:10px;
+padding-bottom: 3px;
+right: 78px;
+position: absolute;
+top:2px;}
